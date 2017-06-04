@@ -1,0 +1,41 @@
+Diamond Price By Size, Color & Cut
+========================================================
+author: Ayuta Padhi
+date: 06/03/2017
+autosize: true
+
+Exploring Diamond Price
+========================================================
+Goal of the project
+
+- Creat a shiny web application and deploy on Rstudio's shiny server.
+- Use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation
+
+The Application
+========================================================
+
+This application uses the "diamonds" dataset from the "ggplot2" library. 
+
+Link to shiny application: https://padhi.shinyapps.io/diamondprice/
+
+Users can use this simple application to
+
+- filter the diamonds dataset by "carat" by sliding the slider
+- filter the diamonds dataset by "color" by clicking the radio options
+- filter the diamonds dataset by both "color" & "carat"
+- view the size and price of a diamond by hovering over a plotted point.
+
+The Data
+========================================================
+
+```{r}
+library(ggplot2)
+head(diamonds,5)
+```
+
+The Code
+========================================================
+
+Source code for this project can be found at github.
+
+https://github.com/padhi/data_product_project
